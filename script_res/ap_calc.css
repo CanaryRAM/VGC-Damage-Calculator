@@ -1,52 +1,9 @@
-.parallax-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    /* Coloca la imagen detrás de todo el contenido */
-    background-image: url('image_res/lugia-wp.jpg');
-    /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen de fondo */
-    background-size: cover;
-    filter: blur(5px);
-    /* Ajusta la cantidad de blur según desees */
-    pointer-events: none;
-    /* Evita que la imagen de fondo interfiere con el desplazamiento */
-}
-
-body::before {
-    /* Añade un seudoelemento para el efecto de parallax */
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    /* Coloca este elemento detrás de todo el contenido */
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Ajusta el color del overlay si lo deseas */
-}
-
+/* general page styling */
 body {
-    /* Estilo para el contenido */
     font: 12px Verdana, sans-serif;
+    background-color: #bbeedd;
     padding: 0 1em;
     min-width: 100em;
-    overflow: auto;
-    /* Habilita el desplazamiento */
-}
-
-/* fin del mod */
-
-
-.wrapper {
-    transform: translateZ(0);
-    position: relative;
-    /* Asegura que el contenido se superponga a la imagen de fondo */
-    z-index: 1;
-    /* Coloca el contenido sobre la imagen de fondo */
 }
 
 fieldset {
@@ -212,7 +169,7 @@ th {
     background: #ffff99;
 }
 
----.dark .locked-move:checked+.btn {
+.dark .locked-move:checked+.btn {
     background: #10171e !important;
 }
 

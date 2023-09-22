@@ -17697,6 +17697,13 @@ var POKEDEX_SV = {};
   'Tinkatink', 'Tinkatuff', 'Tinkaton', 'Charcadet', 'Armarouge', 'Ceruledge', 'Toedscool', 'Toedscruel', 'Kingambit', 'Clodsire',
   'Annihilape', 'Great Tusk', 'Brute Bonnet', 'Sandy Shocks', 'Scream Tail', 'Flutter Mane', 'Slither Wing', 'Roaring Moon', 'Iron Treads', 'Iron Moth',
   'Iron Hands', 'Iron Jugulis', 'Iron Thorns', 'Iron Bundle', 'Iron Valiant', 'Koraidon', 'Miraidon', 'Walking Wake', 'Iron Leaves',
+  //DLC 1 Add-ons
+  'Vulpix', 'Ninetales', 'Vulpix-Alola', 'Ninetales-Alola', 'Munchlax', 'Snorlax', 'Cleffa', 'Clefairy', 'Clefable', 'Poliwag', 'Poliwhirl', 'Poliwrath', 'Politoed', 'Ekans', 'Arbok', 'Sentret', 'Furret',
+  'Hoothoot', 'Noctowl', 'Yanma', 'Yanmega', 'Aipom', 'Ambipom', 'Wooper', 'Quagsire', 'Gligar', 'Gliscor', 'Swinub', 'Piloswine', 'Mamoswine', 'Poochyena', 'Mightyena',
+  'Seedot', 'Nuzleaf', 'Shiftry', 'Feebas', 'Milotic', 'Chimecho', 'Corpish', 'Crawdaunt', 'Duskull', 'Dusclops', 'Dusknoie', 'Chingling', 'Timburr', 'Gurdurr', 'Conkeldurr',
+  'Litwick', 'Lampent', 'Chandelure', 'Phantump', 'Trevenant', 'Grubbin', 'Charjabug', 'Vikavolt', 'Jangmo-o', 'Hakamo-o', 'Kommo-o', 'Spinarak', 'Ariados', 'Volbeat',
+  'Illumise', 'Sewaddle', 'Swadloon', 'Leavanny', 'Cutiefly', 'Ribombee', 'Bellsprout', 'Weepinbell', 'Victreebel', 'Geodude', 'Graveler', 'Golem', 'Geodude-Alola', 'Graveler-Alola', 'Golem-Alola', 'Slugma', 'Magcargo',
+  'Morpeko', 'Ursaluna-Bloodmoon', 'Poltchageist', 'Sinistcha', 'Dipplin', 'Okidogi', 'Monkidori', 'Fezandipiti', 'Ogerpon', 'Ogerpon-Wellspring', 'Ogerpon-Hearthflame', 'Ogerpon-Cornerstone',
   //Forms for Initial Pokemon
   'Raichu-Alola', 'Diglett-Alola', 'Dugtrio-Alola', 'Meowth-Alola', 'Meowth-Galar', 'Persian-Alola', 'Growlithe-Hisui', 'Arcanine-Hisui', 'Slowpoke-Galar', 'Slowbro-Galar',
   'Grimer-Alola', 'Muk-Alola', 'Voltorb-Hisui', 'Electrode-Hisui', 'Tauros-Paldea-Combat', 'Tauros-Paldea-Blaze', 'Tauros-Paldea-Aqua', 'Articuno-Galar', 'Zapdos-Galar', 'Moltres-Galar',
@@ -17704,19 +17711,7 @@ var POKEDEX_SV = {};
   'Palkia-Origin', 'Giratina-Origin', 'Samurott-Hisui', 'Lilligant-Hisui', 'Zorua-Hisui', 'Zoroark-Hisui', 'Braviary-Hisui', 'Tornadus-Therian', 'Thundurus-Therian', 'Landorus-Therian',
   'Meloetta-Pirouette', 'Sliggoo-Hisui', 'Goodra-Hisui', 'Avalugg-Hisui', 'Decidueye-Hisui', 'Oricorio-Pom-Pom', "Oricorio-Pa'u", 'Oricorio-Sensu', 'Lycanroc-Midnight', 'Lycanroc-Dusk',
   'Eiscue-Noice', 'Indeedee-F', 'Zacian-Crowned', 'Zamazenta-Crowned', 'Urshifu-Rapid Strike', 'Calyrex-Ice Rider', 'Calyrex-Shadow Rider', 'Basculegion-F', 'Enamorus-Therian', 'Oinkologne-F',
-  'Dudunsparce-Big', 'Palafin-Hero', 'Maushold-Four', 'Gimmighoul-Roam', 'Hoopa-Unbound', 'Wooper-Paldea',
-  //DLC Add-Ons
-  'Ekans', 'Arbok', 'Sandshrew', 'Sandslash', 'Clefairy', 'Clefable', 'Vulpix', 'Ninetales', 'Poliwag', 'Poliwhirl', 'Poliwrath', 'Bellsprout', 'Weepinbell', 'Victreebel',
-  'Geodude', 'Graveler', 'Golem', 'Koffing', 'Weezing', 'Snorlax', 'Sentret', 'Furret', 'Hoothoot', 'Noctowl', 'Spinarak', 'Ariados', 'Cleffa', 'Politoed', 'Aipom',
-  'Yanma', 'Gligar', 'Slugma', 'Magcargo', 'Swinub', 'Piloswine', 'Poochyena', 'Mightyena', 'Lotad', 'Lombre', 'Ludicolo', 'Seedot', 'Nuzleaf', 'Shiftry', 'Nosepass',
-  'Volbeat', 'Illumise', 'Corphish', 'Crawdaunt', 'Feebas', 'Milotic', 'Duskull', 'Dusclops', 'Chimecho', 'Jirachi', 'Turtwig', 'Grotle', 'Torterra',
-  'Chimchar', 'Monferno', 'Infernape', 'Piplup', 'Prinplup', 'Empoleon', 'Ambipom', 'Chingling', 'Munchlax', 'Yanmega', 'Gliscor', 'Mamoswine',
-  'Probopass', 'Dusknoir', 'Phione', 'Manaphy', 'Darkrai', 'Shaymin', 'Timburr',
-  'Gurdurr', 'Conkeldurr', 'Sewaddle', 'Swadloon', 'Leavanny', 'Ducklett', 'Swanna', 'Litwick', 'Lampent', 'Chandelure', 'Mienfoo', 'Mienshao', 'Vullaby', 'Mandibuzz',
-  'Phantump', 'Trevenant', 'Grubbin', 'Charjabug', 'Vikavolt', 'Cutiefly', 'Ribombee', 'Jangmo-o', 'Hakamo-o', 'Kommo-o', 'Cramorant', 'Morpeko',
-  'Dipplin', 'Poltchageist', 'Sinistcha', 'Okidogi', 'Munkidori', 'Fezandipiti', 'Ogerpon', 'Ogerpon-Hearthflame', 'Ogerpon-Wellspring', 'Ogerpon-Cornerstone',
-  'Sandshrew-Alola', 'Sandslash-Alola', 'Vulpix-Alola', 'Ninetales-Alola', 'Geodude-Alola', 'Graveler-Alola', 'Golem-Alola', 'Weezing-Galar', 'Shaymin-Sky',
-  'Ursaluna-Bloodmoon',
+  'Dudunsparce-Big', 'Palafin-Hero', 'Maushold-Four', 'Gimmighoul-Roam', 'Hoopa-Unbound', 'Wooper-Paldea'
 ].forEach(e => POKEDEX_SV[e] = POKEDEX_SV_NATDEX[e]);
 
 //performs deep copy; necessary to preserve form data for nat dex

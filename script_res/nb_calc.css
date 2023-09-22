@@ -19,6 +19,17 @@ html.dark {
     border-bottom: 5px solid #103a52;
 }
 
+/*.dark .panel[id="p1"] {
+    background-color: #5A1412;*/
+/*background-color: #911e18;*/
+/*border-bottom: 5px solid #103a52;
+}
+.dark .panel[id="p2"] {
+    background-color: #200c30;*/
+/*background-color: #471868;*/
+/*border-bottom: 5px solid #103a52;
+}*/
+
 .dark .header {
     color: #ffffff !important;
     background-color: #192121 !important;

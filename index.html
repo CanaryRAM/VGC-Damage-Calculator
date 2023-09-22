@@ -48,7 +48,9 @@
                     target="_blank" rel="noopener noreferrer">VGCPastes Repository</a> | <a
                     href="https://github.com/canaryram/VGC-Damage-Calculator" target="_blank"
                     rel="noopener noreferrer">GitHub Page</a><button class="btn" id="switchTheme">Dark
-                    theme</button></span>
+                    theme</button><!--<button class="btn gen-specific g8 g9" id="switchDex">National Dex</button>--><input
+                    class="btn-input" type="checkbox" id="switchDex" /><label class="btn dex-change gen-specific g8 g9"
+                    for="switchDex" title="Include Pokemon that aren't in this gen?">National Dex</label></span>
             <div style="clear:both"></div>
         </div>
     </div>
@@ -60,8 +62,7 @@
         </div>
         <div class="move-result-group" title="Select a move to show detailed results.">
             <div class="move-result-subgroup">
-                <div class="result-move-header"><span id="resultHeaderL">Pokemon 1's Moves (select one to show
-                        detailed
+                <div class="result-move-header"><span id="resultHeaderL">Pokemon 1's Moves (select one to show detailed
                         results)</span></div>
                 <div><input class="result-move btn-input" type="radio" name="resultMove" id="resultMoveL1"
                         checked="checked" /><label class="btn btn-xxxwide btn-top" for="resultMoveL1">Hi Jump
@@ -77,8 +78,7 @@
                         id="resultDamageL4">??? - ???%</span></div>
             </div>
             <div class="move-result-subgroup">
-                <div class="result-move-header"><span id="resultHeaderR">Pokemon 2's Moves (select one to show
-                        detailed
+                <div class="result-move-header"><span id="resultHeaderR">Pokemon 2's Moves (select one to show detailed
                         results)</span></div>
                 <div><input class="result-move btn-input" type="radio" name="resultMove" id="resultMoveR1" /><label
                         class="btn btn-xxxwide btn-top" for="resultMoveR1">Hi Jump Kick</label> <span
@@ -97,10 +97,8 @@
         <div class="main-result-group">
             <div class="big-text"><span id="mainResult" onclick="Clipboard_CopyTo(this.textContent)"
                     title="Click to copy the result.">Loading...</span></div>
-            <div class="small-text"><span id="damageValues">(If you see this message for more than a few seconds,
-                    try
-                    enabling JavaScript. If you have that enabled, try deleting your cookies. Otherwise, I won't be
-                    able
+            <div class="small-text"><span id="damageValues">(If you see this message for more than a few seconds, try
+                    enabling JavaScript. If you have that enabled, try deleting your cookies. Otherwise, I won't be able
                     to help you unless you send a screenshot of your browser console [Ctrl+Shift+I on Google
                     Chrome].)</span></div>
         </div>
@@ -690,21 +688,17 @@
                 <div class="gen-specific g9" style="width: 19em; margin: 5px auto;"
                     title="Select the current active Ruin.">
                     <input class="btn-input calc-trigger" type="checkbox" name="ruin" value="Tablets of Ruin"
-                        id="tablets-of-ruin" /><label class="btn btn-xxxwide btn-left" for="tablets-of-ruin">Tablets
-                        of
+                        id="tablets-of-ruin" /><label class="btn btn-xxxwide btn-left" for="tablets-of-ruin">Tablets of
                         Ruin <u>(-Atk)</u></label>
                     <input class="btn-input calc-trigger" type="checkbox" name="ruin" value="Vessel of Ruin"
-                        id="vessel-of-ruin" /><label class="btn btn-xxxwide btn-right" for="vessel-of-ruin">Vessel
-                        of
+                        id="vessel-of-ruin" /><label class="btn btn-xxxwide btn-right" for="vessel-of-ruin">Vessel of
                         Ruin <u>(-SpA)</u></label>
                     <br />
                     <input class="btn-input calc-trigger" type="checkbox" name="ruin" value="Sword of Ruin"
-                        id="sword-of-ruin" /><label class="btn btn-xxxwide btn-left" for="sword-of-ruin">Sword of
-                        Ruin
+                        id="sword-of-ruin" /><label class="btn btn-xxxwide btn-left" for="sword-of-ruin">Sword of Ruin
                         <u>(-Def)</u></label>
                     <input class="btn-input calc-trigger" type="checkbox" name="ruin" value="Beads of Ruin"
-                        id="beads-of-ruin" /><label class="btn btn-xxxwide btn-right" for="beads-of-ruin">Beads of
-                        Ruin
+                        id="beads-of-ruin" /><label class="btn btn-xxxwide btn-right" for="beads-of-ruin">Beads of Ruin
                         <u>(-SpD)</u></label>
                 </div>
                 <div class="gen-specific g4 g5 g6 g7 g8 g9" style="width: 16em; margin: 0 auto 5px;"
@@ -763,13 +757,11 @@
                 <div class="btn-group gen-specific g8 g9">
                     <div class="left" title="Has this Pokemon's Weakness Policy been activated?">
                         <input class="btn-input calc-trigger" type="checkbox" id="weakL" /><label class="btn btn-xwide"
-                            for="weakL"><img src="image_res/Weakness_Policy.png"><br>Weakness
-                            Policy</label>
+                            for="weakL"><img src="image_res/Weakness_Policy.png"><br>Weakness Policy</label>
                     </div>
                     <div class="right" title="Has this Pokemon's Weakness Policy been activated?">
                         <input class="btn-input calc-trigger" type="checkbox" id="weakR" /><label class="btn btn-xwide"
-                            for="weakR"><img src="image_res/Weakness_Policy.png"><br>Weakness
-                            Policy</label>
+                            for="weakR"><img src="image_res/Weakness_Policy.png"><br>Weakness Policy</label>
                     </div>
                 </div>
                 <div class="btn-group gen-specific g4 g5 g6 g7 g8 g9">
@@ -887,13 +879,11 @@
                 <div class="btn-group gen-specific g7">
                     <div class="left" title="Has this Pokemon used Extreme Evoboost?">
                         <input class="btn-input calc-trigger" type="checkbox" id="evoL" /><label class="btn btn-xwide"
-                            for="evoL"><img src="image_res/133.png"><br>Extreme
-                            Evoboost</label>
+                            for="evoL"><img src="image_res/133.png"><br>Extreme Evoboost</label>
                     </div>
                     <div class="right" title="Has this Pokemon used Extreme Evoboost?">
                         <input class="btn-input calc-trigger" type="checkbox" id="evoR" /><label class="btn btn-xwide"
-                            for="evoR"><img src="image_res/133.png"><br>Extreme
-                            Evoboost</label>
+                            for="evoR"><img src="image_res/133.png"><br>Extreme Evoboost</label>
                     </div>
                 </div>
                 <div class="btn-group gen-specific g9">
@@ -924,8 +914,7 @@
                 <br>
                 <button type="button" onclick="savecustom()">Save</button> <button type="button"
                     onclick="deletecustom()">Delete Custom Sets</button>
-                <p>You may need to refresh the page after deleting your custom sets. If you encounter a bug, please
-                    try
+                <p>You may need to refresh the page after deleting your custom sets. If you encounter a bug, please try
                     deleting your cookies or reporting it!</p>
             </div>
         </div>
@@ -1458,7 +1447,14 @@
         </div>
 
         <div style="display:inline-block;width:728px;height:30px" />
-    </div>
+        <!-- Damage Calc Ad (PROBABLY WILL REMAIN UNUSED) -->
+        <!--<ins class="adsbygoogle"
+             style="display:inline-block;width:728px;height:90px"
+             data-ad-client="ca-pub-7571541875475494"
+             data-ad-slot="3642617298"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>-->
 </body>
 
 <script src="jquery-3.1.1.min.js"></script>

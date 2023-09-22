@@ -5662,30 +5662,16 @@ var MOVES_SV_NATDEX = $.extend(true, {}, MOVES_SS_NATDEX, {
         category: 'Physical',
         isSlice: true,
     },
-    //Teal Mask Add-Ons
+    'Syrup Bomb': {
+        type: 'Grass',
+        category: 'Status'
+    },
     'Matcha Gotcha': {
         bp: 80,
         type: 'Grass',
         category: 'Special',
         hasSecondaryEffect: true,
-        isSpread: true,
-    },
-    'Syrup Bomb': {
-        bp: 60,
-        type: 'Grass',
-        category: 'Special',
-        hasSecondaryEffect: true,
-    },
-    'Ivy Cudgel': {
-        bp: 100,
-        type: 'Grass',
-        category: 'Physical',
-    },
-    'Blood Moon': {
-        bp: 140,
-        type: 'Normal',
-        category: 'Special',
-    },
+    }
 });
 
 var MOVES_SV = $.extend(true, {}, MOVES_SV_NATDEX, {});
